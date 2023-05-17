@@ -10,7 +10,7 @@ const Newsletter = () => {
             <h1 className="text-white font-light text-2xl mb-6 text-center md:text-start md:text-4xl lg:text-6xl">
               Newsletter
             </h1>
-            <p className="font-light text-center md:text-start text-white mb-6">
+            <p className="font-light text-center md:text-start text-white mb-6 leading-8">
               Yıl boyunca gerçekleştireceğimiz etkinliklerden haberdar olmak
               için düzenli olarak her ay ilettiğimiz bültenimize abone
               olabilirsiniz.

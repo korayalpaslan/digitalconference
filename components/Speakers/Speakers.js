@@ -16,7 +16,7 @@ const Speakers = () => {
         ></span>
       </div>
       <div className="pb-12">
-        <p className="text-sm  md:text-lg font-light text-center md:text-start text-white mb-6 w-full lg:w-1/2">
+        <p className="text-sm leading-8 md:text-lg font-light text-center md:text-start text-white mb-6 w-full lg:w-1/2">
           Yılın son zirve toplantısında teknoloji profesyonelleri ve lider
           girişimcilerle güncel dijital trend ve teknolojileri keşfedeceksiniz
         </p>

@@ -13,7 +13,7 @@ const Registration = () => {
             <h1 className="text-white font-light text-2xl mb-6 text-center md:text-start md:text-4xl lg:text-6xl">
               Erken Kayıt Fırsatları
             </h1>
-            <p className="text-sm  md:text-lg font-light text-center md:text-start text-white mb-6">
+            <p className="text-sm leading-8 md:text-lg font-light text-center md:text-start text-white mb-6">
               Yılın son zirve toplantısında teknoloji profesyonelleri ve lider
               girişimcilerle güncel dijital trend ve teknolojileri
               keşfedeceksiniz
