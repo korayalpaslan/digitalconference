@@ -8,7 +8,7 @@ const Sponsors = () => {
         <div
           className="pt-24 pb-12 md:pt-36 relative w-full"
         >
-          <h1 className="text-4xl lg:text-6xl font-light absolute z-10 top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-white">
+          <h1 className="text-4xl lg:text-5xl font-light absolute z-10 top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-white">
             Sponsorlar
           </h1>
           <span

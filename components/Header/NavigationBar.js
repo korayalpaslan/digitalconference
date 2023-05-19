@@ -33,7 +33,7 @@ const NavigationBar = () => {
           <button className="cursor hover:text-primary transition-colors duration-300">İletişim</button>
         </li>
         <li>
-          <button className="bg-primary hover:bg-primary_dark transition-all duration-300 rounded-full py-4 px-10">Kayıt</button>
+          <button className="bg-primary hover:bg-primary_dark transition-all duration-300 rounded-full py-3 px-6 min-w-[125px]">Kayıt</button>
         </li>
       </ul>
     </div>

@@ -5,10 +5,10 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="">
+    <div>
       <Arrow />
-      <div className="bg-primary text-white ">
-        <div className="lg:container md:mx-auto py-0 px-6 md:px-12 lg:px-0 flex flex-col md:flex-row md:justify-between items-center ">
+      <div className="bg-primary text-white">
+        <div className="lg:container md:mx-auto py-0 px-6 md:px-12 lg:px-0 flex flex-col md:flex-row md:justify-between items-center">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -19,7 +19,7 @@ const About = () => {
             }}
             className="py-24 md:py-36 relative w-full md:w-1/2"
           >
-            <h1 className="text-4xl lg:text-6xl font-light absolute z-10 top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 md:left-0 md:translate-x-10">
+            <h1 className="text-4xl lg:text-5xl font-light absolute z-10 top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 md:left-0 md:translate-x-10">
               Hakkımızda
             </h1>
             <span

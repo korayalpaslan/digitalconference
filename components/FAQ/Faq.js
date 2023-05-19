@@ -6,15 +6,15 @@ const Faq = () => {
   const [questions, setQuestions] = useState(data);
 
   return (
-    <div className="bg-transparent text-white ">
+    <div className="bg-transparent text-white px:0 lg:px-6">
       <div className="lg:container md:mx-auto py-0 px-6 md:px-12 lg:px-0 flex flex-col md:flex-row md:justify-between items-center md:items-start">
         <div className="w-full md:w-1/2">
           <div className="py-24 md:py-36 relative ">
-            <h1 className="text-4xl lg:text-6xl font-light absolute z-10 top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 md:left-0 md:translate-x-10 text-center">
+            <h1 className="text-4xl lg:text-5xl font-light absolute z-10 top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 md:left-0 md:translate-x-10 text-center">
               Sık Sorulanlar
             </h1>
             <span
-              className="circle-small absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
+              className="circle-small2 absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
               md:left-0 md:-translate-x-0"
             ></span>
           </div>

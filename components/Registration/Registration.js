@@ -10,7 +10,7 @@ const Registration = () => {
             <button className="bg-gradient-to-r from-[#94bbe9] to-[#eeaeca] rounded-full py-1 px-6 font-light text-sm mb-6">
               DTZ 2023
             </button>
-            <h1 className="text-white font-light text-2xl mb-6 text-center md:text-start md:text-4xl lg:text-6xl">
+            <h1 className="text-white font-light text-4xl mb-6 text-center md:text-start lg:text-5xl">
               Erken Kayıt Fırsatları
             </h1>
             <p className="text-sm leading-8 md:text-lg font-light text-center md:text-start text-white mb-6">
@@ -18,7 +18,7 @@ const Registration = () => {
               girişimcilerle güncel dijital trend ve teknolojileri
               keşfedeceksiniz
             </p>
-            <button className="bg-primary hover:bg-primary_dark transition-all duration-300 rounded-full py-4 px-10 text-white min-w-[125px] cursor font-light">
+            <button className="bg-primary hover:bg-primary_dark transition-all duration-300 rounded-full py-3 px-6 text-white min-w-[125px] cursor font-light">
               Kayıt
             </button>
           </div>
