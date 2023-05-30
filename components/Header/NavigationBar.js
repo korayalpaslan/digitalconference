@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const NavigationBar = () => {
   return (
-    <div className="text-white lg:container md:mx-auto flex justify-between items-center py-4 px-6 md:px-12 lg:px-0 bg-background">
+    <div className="text-white lg:container lg:mx-auto flex justify-between items-center py-4 px-6 md:px-12 lg:px-0">
       <div className="flex items-center">
         <Image
           src="/images/logo.png"

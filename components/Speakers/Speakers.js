@@ -5,8 +5,8 @@ import "@splidejs/react-splide/css";
 
 const Speakers = () => {
   return (
-    <div className="bg-background h-[100vh] w-full lg:container md:mx-auto pt-24 px-6 max-h-[75vh] lg:max-h-[80vh]">
-      <div className="pt-24 md:pt-36 relative w-full">
+    <div className="half-background w-full md:mx-auto py-24 px-6">
+      <div className="pt-24 md:pt-36 relative w-full container-clone mx-auto">
         <h1 className="text-4xl lg:text-5xl font-light absolute z-10 top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 md:left-0 md:translate-x-10 text-white">
           İlham Veren Konuşmalar
         </h1>
@@ -15,12 +15,13 @@ const Speakers = () => {
               md:left-0 md:-translate-x-0"
         ></span>
       </div>
-      <div className="pb-12 mt-0">
+      <div className="pb-12 mt-0 container-clone mx-auto">
         <p className="text-sm leading-8 md:text-lg font-light text-center md:text-start text-white mb-6 w-full lg:w-1/2">
           Yılın son zirve toplantısında teknoloji profesyonelleri ve lider
           girişimcilerle güncel dijital trend ve teknolojileri keşfedeceksiniz
         </p>
       </div>
+      <div className="container-clone mx-auto">
       <Splide
         hasTrack={false}
         options={{
@@ -157,6 +158,7 @@ const Speakers = () => {
           <ul className="splide__pagination translate-y-[5vh]"/>
         </div>
       </Splide>
+      </div>
     </div>
   );
 };

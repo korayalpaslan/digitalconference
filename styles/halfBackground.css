@@ -1,0 +1,21 @@
+.half-background {
+  background: linear-gradient(#1c2128 60%, #1c61f8 40%);
+}
+
+
+
+@media screen and (min-width: 1024px) {
+  .container-clone {
+    max-width: 1024px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container-clone {
+    max-width: 1280px;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .container-clone {
+    max-width: 1536px;
+  }
+}

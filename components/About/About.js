@@ -8,7 +8,7 @@ const About = () => {
     <div>
       <Arrow />
       <div className="bg-primary text-white">
-        <div className="lg:container md:mx-auto py-0 px-6 md:px-12 lg:px-0 flex flex-col md:flex-row md:justify-between items-center">
+        <div className="lg:container md:mx-auto py-0 px-6 md:px-12 flex flex-col md:flex-row md:justify-between items-center">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -45,7 +45,7 @@ const About = () => {
             recusandae sunt obcaecati unde dignissimos.
           </motion.div>
         </div>
-        <div className="lg:container md:mx-auto pt-20 px-6 md:px-12 lg:px-0 h-[300px] md:h-[450px] lg:h-[600px]">
+        <div className="lg:container md:mx-auto pt-20 px-6 md:px-12 h-[300px] md:h-[450px] lg:h-[600px]">
           <Image
             src="/images/venue.jpg"
             width={1800}

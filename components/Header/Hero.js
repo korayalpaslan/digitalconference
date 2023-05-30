@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="min-h-[80vh] h-auto lg:container md:mx-auto">
+    <div className="lg:container md:mx-auto flex flex-col flex-grow justify-center">
       <span className="circle"></span>
-      <div className="h-full flex flex-col lg:flex-row items-center lg:translate-y-20">
+      <div className="h-full flex flex-col lg:flex-row items-center">
         <div className="px-8 pb-8 lg:px-0 text-center lg:text-left mt-8 lg:mt-0">
           <motion.span
             initial={{ opacity: 0, y: 25 }}

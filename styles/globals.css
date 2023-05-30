@@ -2,6 +2,7 @@
 
 @import './hamburger-menu.css';
 @import './circle.css';
+@import './halfBackground.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
